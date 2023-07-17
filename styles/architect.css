@@ -1,0 +1,8 @@
+ /* common styles */
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+/* header styles  */
+header{
+    background: rgba(255, 144, 14, 0.10);
+}
