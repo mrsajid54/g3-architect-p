@@ -1,37 +1,106 @@
  /* common styles */
-*{
-    font-family: 'Work Sans', sans-serif;
+ *{margin: 0;
 }
-/* header styles  */
-header{
-    background: rgba(255, 144, 14, 0.10);
-    padding: 50px 240px;
-}
-/* nav section  */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav-tittle{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
+ * {
+     font-family: 'Work Sans', sans-serif;
+ }
 
-}
-nav > ul {
-    display: flex;
-   
-}
-nav li {
-    list-style:  none;
-    margin-right: 30px;
-    font-weight: 500;
-    font-size: 1rem;
-}
-nav li a{
-    text-decoration: none;
-    color: #424242;
-}
 
-/* banner section  */
+ .btn-primary {
+     border: none;
+     border-radius: 8px;
+     color: #FFFFFF;
+     font-size: 1.25rem;
+     background: #FF900E;
+     padding: 20px 25px;
+     cursor: grab;
+
+ }
+
+ /* header styles  */
+ header {
+     background: rgba(255, 144, 14, 0.10);
+     padding: 50px 240px;
+     width: 100%;
+ }
+
+
+ /* nav section  */
+ nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .nav-tittle {
+     font-size: 2.8rem;
+     font-weight: 700;
+     color: #131313;
+
+ }
+
+ nav > ul {
+     display: flex;
+
+ }
+
+ nav li {
+     list-style: none;
+     margin-right: 30px;
+     font-weight: 500;
+     font-size: 1rem;
+ }
+
+ nav li a {
+     text-decoration: none;
+     color: #424242;
+ }
+
+ /* banner section  */
+
+ .banner {}
+
+ .banner-content {
+     max-width: 800px;
+     text-align: center;
+     margin: 0 auto;
+ }
+
+ .banner-tittle {
+     font-size: 4rem;
+     font-weight: 700;
+     color: #131313;
+ }
+
+ .banner-discription {
+     color: #727272;
+ }
+ .banner img {
+    margin: 20px;
+    width: 100%;
+ }
+
+
+ /* responsive  */
+ @media screen and (max-width:576px) {
+    header  {
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+ }
+ @media screen and (min-width: 577px) and ( max-width:960px){
+    header  {
+        padding: 50px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .banner img {
+        width: 100%;
+        justify-content: center;
+     }
+    
+    }
+    
