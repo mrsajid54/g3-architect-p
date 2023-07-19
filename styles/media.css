@@ -6,9 +6,20 @@
 
     nav,
     .teams-container,
-    .facts-card-container, .sponsors-img-container 
+    .facts-card-container, .sponsors-img-container,  .features, .feature-content 
     {
         flex-direction: column;
+    }
+    .feature-content{
+        
+    }
+    .feature-img img{
+        width: 70%;
+        margin-left: 0;
+    }
+    .ten-years-badge{
+        position: static;
+        max-width: 250px;
     }
 
     .teams-img-container {
@@ -24,6 +35,8 @@
     .facts-card-container{
         gap: 20px;
     }
+    
+
 }
 
 @media screen and (min-width: 577px) and (max-width:960px) {
@@ -41,6 +54,10 @@
     .banner img {
         width: 100%;
         justify-content: center;
+    }
+    .ten-years-badge {
+        position: static;
+        max-width: 250px;
     }
 
 
